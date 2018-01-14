@@ -1,0 +1,72 @@
+body {
+  width: 100%;
+  margin: 0px;
+}
+h1, h2, h3, h4 {
+  margin: 0px;
+}
+body div {
+  width: 80%;
+  margin: 0 auto;
+}
+/**CLEAR**/
+.clear {
+  clear:both;
+}
+/**HEADER **/
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: grey;
+  color: white;
+  margin-bottom: 20px;
+}
+.header h1, .header h2 {
+  display: inline-block;
+  line-height: 50px;
+}
+.header h1 {
+  float: left;
+  margin-left: 20px;
+}
+.header h2 {
+  float: right;
+  margin-right: 20px;
+}
+
+#headshot {
+  float: left;
+  width: 40%;
+  margin-left: 40px;
+  border: 5px solid grey;
+}
+
+/**ABOUT**/
+.about {
+  float: right;
+  width: 50%;
+}
+
+/**PROJECTS**/
+.projects {
+  margin-top: 20px;
+}
+.project {
+  width: 30%;
+  float: left;
+}
+.images img, footer img {
+  height: 50px;
+  width: 50px;
+}
+.project img {
+  width: 30%;
+}
+/**footer**/
+footer {
+  text-align: center;
+  margin-top: 50px;
+}
+footer ul li  {
+  display: inline;
+}
