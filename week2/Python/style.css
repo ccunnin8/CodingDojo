@@ -149,9 +149,16 @@ main .container {
   color: yellow;
 }
 /***ROW***/
+.row a {
+  text-decoration:none;
+}
 .row ul {
   margin-top: 15px;
-  list-style: square outside;
+}
+.row ul li {
+  display: list-item;
+  list-style-type: square;
+  margin-top: 5px;
 }
 .left {
   float: left;
@@ -167,4 +174,16 @@ main .container {
 /***FOOTER***/
 footer {
   height: 200px;
+}
+footer ul {
+  width: 80%;
+  margin: 0 auto 10px auto;
+  display: flex;
+}
+footer ul li {
+  margin-right: auto;
+}
+footer a {
+  text-decoration: none;
+  font-size: 2rem;
 }
