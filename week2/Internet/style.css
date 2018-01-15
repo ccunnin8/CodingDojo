@@ -1,0 +1,103 @@
+/**RESET**/
+html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+h1,h2,h3,h4,h5 {
+  margin: 0px;
+}
+body {
+  margin: 0px;
+}
+/**HEADER**/
+header img {
+  height: 150px;
+  width: 150px;
+  z-index: 100;
+}
+header h1 {
+  display: inline;
+  position: relative;
+  top: -50px;
+  font-size: 4em;
+}
+header h2 {
+  height: 100px;
+  line-height: 100px;
+  background-color: blue;
+  width:100%;
+  padding-left: 20px;
+  position: relative;
+  top: -50px;
+  z-index: -100;
+  color: white;
+  font-size: 2.5rem;
+}
+.sidebar {
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.sidebar img {
+  height: 50px;
+  width: 50px;
+}
+.sidebar button {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+.content {
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.5rem;
+}
+.header {
+  height: 200px;
+}
+.left img {
+  height: 50px;
+  width: 50px;
+}
+.left {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.right {
+  display: inline-block;
+  position: relative;
+  left: 70%;
+}
+.left img, .left h3 {
+  display: inline-block;
+}
+.left h3 {
+  position: relative;
+  font-size: 1.5rem;
+  top: -10px;
+}
+#client_server {
+  width: 70%;
+  margin: 40px auto;
+  display: block;
+}
+.big3 {
+  border: 3px solid blue;
+  padding: 10px;
+}
+.big3 img {
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+  vertical-align: top;
+}
+.wrapper {
+  display: inline-block;
+  width: 70%;
+  vertical-align: top;
+}
