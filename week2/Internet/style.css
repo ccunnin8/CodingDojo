@@ -8,9 +8,13 @@ h1,h2,h3,h4,h5 {
   margin: 0px;
 }
 body {
+  height: 100%;
   margin: 0px;
 }
 /**HEADER**/
+header {
+  height: 200px;
+}
 header img {
   height: 150px;
   width: 150px;
@@ -25,7 +29,7 @@ header h1 {
 header h2 {
   height: 100px;
   line-height: 100px;
-  background-color: blue;
+  background: linear-gradient(to bottom, #0255db, #75a3ef, #0255db);
   width:100%;
   padding-left: 20px;
   position: relative;
@@ -33,6 +37,12 @@ header h2 {
   z-index: -100;
   color: white;
   font-size: 2.5rem;
+}
+header span {
+  color: #0255db;
+}
+main {
+    background: linear-gradient(to bottom, #d3dbe8, white)
 }
 .sidebar {
   width: 20%;
@@ -50,11 +60,57 @@ header h2 {
   display: block;
   margin: 0 auto;
 }
+.sidebar h3 span {
+  color: red;
+}
+.sidebar p span {
+  color: #0255db;
+}
+.sidebar button {
+  height: 50px;
+  width: 80%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+.sidebar button:first-of-type {
+  background-color: #2460c1;
+  color: white;
+}
+.sidebar button:nth-of-type(2) {
+  background-color: #efa237;
+  color: white;
+}
+.ad {
+  background-image: url("images/ad_background.png");
+  height: 500px;
+  color: white;
+  text-align: center;
+  font-size: 2rem;
+}
+.ad h3 {
+  margin-top: 20px;
+  display: inline-block;
+}
+.ad img {
+  height: 200px;
+  width: 200px;
+}
+#ad_button {
+  background-color: #0fcbed;
+  font-size: 1.5rem;
+}
 .content {
   width: 70%;
   display: inline-block;
   vertical-align: top;
   font-size: 1.5rem;
+}
+.content h3 {
+  color: #0255db;
+}
+.content span, .content a{
+  color: #0fcbed;
+  text-decoration: none;
 }
 .header {
   height: 200px;
@@ -72,6 +128,21 @@ header h2 {
   display: inline-block;
   position: relative;
   left: 70%;
+}
+.right p {
+  margin: 0px;
+}
+.right h3 {
+  margin: 1px 0px;
+  font-size: 3rem;
+  color: #0fcbed;
+}
+.right img {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: 90px;
+  left: -90px;
 }
 .left img, .left h3 {
   display: inline-block;
