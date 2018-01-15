@@ -61,7 +61,7 @@ p {
 .about, .project {
   background: linear-gradient(to right, white,  #ffe6ff )
 }
-.about header, .about main, .project header, .project p {
+.about header, .about .main, .project header, .project p {
   padding: 3px;
 }
 .about header h2, .project header h2, .project header h3 {
@@ -93,7 +93,7 @@ p {
   width: 50px;
   margin: 10px;
 }
-.project main {
+.project .main {
   height: 500px;
 }
 
