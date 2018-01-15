@@ -1,0 +1,170 @@
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body {
+  margin: 0;
+  height: 100%;
+  background-color:    #2b5b84;
+  color: white;
+}
+p {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+.sidebar li, .applications li, .getting_started li {
+  display: block;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+/**HEADER**/
+header {
+  padding-top: 20px;
+}
+.logo {
+  float: left;
+}
+.logo img {
+  margin-left: 50px;
+  width: 400px;
+  height: 100px;
+}
+.search {
+  float: right;
+  margin-right: 40px;
+  text-align: right;
+}
+.search p {
+  margin-right: 15px;
+}
+form {
+  background-color: #4d4d4d;
+  width: 300px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 2px 4px black;
+}
+input[type="text"] {
+  text-align: center;
+  height: 30px;
+  width: 150px;
+  margin-right: 5px;
+  border: 2px solid grey;
+}
+input[type="submit"]{
+  font-size: 1.25rem;
+  color: white;
+  -webkit-appearance: button;
+  height: 40px;
+  width: 50px;
+  border-radius: 5px;
+  background-color: #2b5b84;
+  border: 4px solid grey;
+}
+nav {
+  clear: both;
+  background: #3c72b3;
+  border-radius: 10px;
+  width: 90%;
+  height: 70px;
+  margin: 10px auto 3px auto;
+  box-shadow: 5px 5px 3px black;
+}
+nav ul {
+  width: 90%;
+  line-height: 80px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  margin-right: auto;
+}
+nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+/***MAIN***/
+main {
+  height: 80%;
+}
+.row {
+  background-color: white;
+  color: black;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+main .container {
+  padding: 20px 0px;
+}
+.sidebar {
+  float: left;
+  width: 30%;
+}
+.sidebar ul li a {
+  color: white;
+  font-size: 1.5rem;
+}
+.sidebar li {
+  margin-bottom: 10px;
+}
+.sidebar li:before {
+  content: ">>";
+  color: yellow;
+  margin-right: 10px;
+}
+.content {
+  float: right;
+  width: 70%;
+  font-size: 1.25rem;
+}
+.content h2 {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+.content h2:last-child {
+  color: white;
+  font-style:normal;
+}
+.zen {
+  color: yellow;
+}
+/***ROW***/
+.row ul {
+  margin-top: 15px;
+  list-style: square outside;
+}
+.left {
+  float: left;
+  width: 48%;
+}
+.right {
+  float: right;
+  width: 48%;
+}
+.getting_started, .applications {
+  border-top: 5px solid blue;
+}
+/***FOOTER***/
+footer {
+  height: 200px;
+}
