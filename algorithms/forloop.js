@@ -12,11 +12,17 @@
 //   beCheerful();
 // }
 //Multiples of Three - but not all
-for (var i = 3; i >= -300; i--){
-  if (i === -3 || i === -6) {
-    continue;
-  }
-  else {
-    console.log(i);
-  }
-}
+// for (var i = 3; i >= -300; i--){
+//   if (i === -3 || i === -6) {
+//     continue;
+//   }
+//   else {
+//     console.log(i);
+//   }
+// }
+//printing integers with while
+// var i = 2000
+// while (i <= 5280) {
+//   console.log(i);
+//   i++;
+// }
