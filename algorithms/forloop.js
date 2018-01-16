@@ -26,3 +26,16 @@
 //   console.log(i);
 //   i++;
 // }
+function yourBirthday(num, num2){
+  if ((num === 3 || num2 === 3) && (num === 14 || num2 == 14)){
+    console.log("How did you know?")
+  }
+  else {
+    console.log("Just another day");
+  }
+}
+
+yourBirthday(3,14);
+yourBirthday(12,14);
+yourBirthday(12,3);
+yourBirthday(14,3);
