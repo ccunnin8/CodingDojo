@@ -1,0 +1,85 @@
+html {
+  background-color: grey;
+}
+header, footer {
+  background-color: teal;
+}
+header {
+  padding: 20px 0px;
+  height: 50px;
+}
+header img {
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+header ul li, header ul{
+  display: inline;
+}
+.list_wrapper {
+  vertical-align: 75%;
+  display: inline;
+  margin-left: 30%;
+}
+header h1 {
+  display: inline;
+  vertical-align: 30%;
+}
+body {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+}
+main {
+  background-color: yellow;
+  padding: 10px 0px;
+  margin: 0 auto;
+}
+.sidebar, .small, .medium, .large {
+  background-color: darkgreen;
+}
+
+/***MAIN ****/
+.sidebar {
+  width: 20%;
+  margin: 10px;
+  padding: 5px;
+  display: inline-block;
+}
+.row {
+  width: 70%;
+  display: inline-block;
+  vertical-align: top;
+  margin-top:10px;
+}
+.small {
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  height: 200px;
+  padding: 10px;
+}
+.middle {
+  margin: 0px 7px;
+}
+.medium {
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  margin-top: 10px;
+  padding: 10px;
+}
+.large {
+  padding: 10px;
+  margin-top: 10px;
+}
+.left{
+  margin-right: 127px;
+}
+footer {
+  height: 100px;
+  text-align:center;
+}
+footer p {
+  line-height: 100px;
+}
