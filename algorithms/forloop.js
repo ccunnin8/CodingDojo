@@ -26,16 +26,25 @@
 //   console.log(i);
 //   i++;
 // }
-function yourBirthday(num, num2){
-  if ((num === 3 || num2 === 3) && (num === 14 || num2 == 14)){
-    console.log("How did you know?")
+// function yourBirthday(num, num2){
+//   if ((num === 3 || num2 === 3) && (num === 14 || num2 == 14)){
+//     console.log("How did you know?")
+//   }
+//   else {
+//     console.log("Just another day");
+//   }
+// }
+//
+// yourBirthday(3,14);
+// yourBirthday(12,14);
+// yourBirthday(12,3);
+// yourBirthday(14,3);
+function leapYear(year){
+  if (year % 4 === 0 && year % 100 !== 0) {
+    return true;
   }
-  else {
-    console.log("Just another day");
-  }
+  return false;
 }
 
-yourBirthday(3,14);
-yourBirthday(12,14);
-yourBirthday(12,3);
-yourBirthday(14,3);
+console.log(leapYear(2020));
+console.log(leapYear(1999));
