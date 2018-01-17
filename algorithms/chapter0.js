@@ -76,3 +76,10 @@ console.log("My Number is " + myNumber + " and my name is " + myName);
 //   }
 // }
 // console.log("TOTAL NUMBER: " + count);
+
+// //**MULTIPLES OF SIX******
+// var num = 6
+// while (num <= 60000){
+//   if (num % 6 === 0) console.log(num);
+//   num += 6;
+// }
