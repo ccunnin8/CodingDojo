@@ -83,3 +83,14 @@ console.log("My Number is " + myNumber + " and my name is " + myName);
 //   if (num % 6 === 0) console.log(num);
 //   num += 6;
 // }
+
+// //**COUNTING THE DOJO WAY***
+// for (var i = 1; i <=100; i++){
+//   if (i % 5 === 0 && i % 10 !== 0) console.log("Coding");
+//   if (i % 10 === 0) console.log("Dojo");
+// }
+
+//***WHAT DO YOU KNOW?****
+// function whatdoyouknow(incoming){
+//   console.log(incoming);
+// }
