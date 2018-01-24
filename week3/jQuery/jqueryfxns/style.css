@@ -1,0 +1,33 @@
+html {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.section button, section h1 {
+  display: inline;
+}
+
+section {
+  margin: 150px 0px;
+}
+
+.hidden {
+  display: none;
+}
+
+section div {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  margin: 0 auto;
+}
+
+.red {
+  color: red;
+}
