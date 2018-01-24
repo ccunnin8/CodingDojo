@@ -1,0 +1,13 @@
+body {
+  text-align: center;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+img {
+  height: 250px;
+  width: 22%;
+  margin: 10px;
+}
