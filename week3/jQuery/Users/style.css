@@ -1,0 +1,7 @@
+form {
+  width: 30%;
+}
+form input, form label {
+  display: block;
+  margin-bottom: 5px;
+}
