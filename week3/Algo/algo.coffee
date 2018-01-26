@@ -58,3 +58,17 @@
 #
 # console.log firstplustlength [1,2,3,4]
 # console.log firstplustlength [true,false,1,2]
+#
+# Values Greater than Second
+# For [1,3,5,7,9,13], print values that are greater than its 2nd value. Return how many values this is.
+
+# val_greater_than_second = (array) ->
+#   second = array[1]
+#   counter = 0
+#   for num in array
+#     if num > second
+#       counter++
+#       console.log num
+#   counter
+#
+# console.log val_greater_than_second [1,3,5,7,9,13]
