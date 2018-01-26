@@ -30,8 +30,18 @@
 #
 # Countdown
 # Create a function that accepts a number as an input. Return a new array that counts down by one, from the number (as array’s ‘zero’th element) down to 0 (as the last element). How long is this array?
-# 
+#
 # countdown = (high) ->
 #   num for num in [high..0]
 #
 # console.log countdown(10)
+
+# Print and Return
+# Your function will receive an array with two numbers. Print the first value, and return the second.
+
+# printreturn = (num1,num2) ->
+#   console.log num1
+#   num2
+#
+# test = printreturn(2,3) #prints 2
+# console.log test #prints 3
