@@ -45,3 +45,16 @@
 #
 # test = printreturn(2,3) #prints 2
 # console.log test #prints 3
+
+
+# First Plus Length
+# Given an array, return the sum of the first value in the array, plus the array’s length. What happens if the array’s first value is not a number, but a string (like "what?") or a boolean (like false).
+
+# firstplustlength = (array) ->
+#   if typeof array[0] == 'number'
+#     array[0] + array.length
+#   else
+#     console.log "Error, your array contains something other than numbers"
+#
+# console.log firstplustlength [1,2,3,4]
+# console.log firstplustlength [true,false,1,2]
