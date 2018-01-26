@@ -20,10 +20,18 @@
 #
 # Example: Given (3,5,17,9), print 6,12,15 (which are all of the multiples of 3 between 5 and 17, except for the value 9).
 
-finalCount = (param1,param2,param3,param4) ->
-  start = param1 * (param2 % param1)
-  while start < param3
-    if start != param4
-      console.log start
-    start += param1
-finalCount(3,5,17,9)
+# finalCount = (param1,param2,param3,param4) ->
+#   start = param1 * (param2 % param1)
+#   while start < param3
+#     if start != param4
+#       console.log start
+#     start += param1
+# finalCount(3,5,17,9)
+#
+# Countdown
+# Create a function that accepts a number as an input. Return a new array that counts down by one, from the number (as array’s ‘zero’th element) down to 0 (as the last element). How long is this array?
+# 
+# countdown = (high) ->
+#   num for num in [high..0]
+#
+# console.log countdown(10)
