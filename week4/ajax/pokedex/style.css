@@ -1,0 +1,22 @@
+h1 {
+text-align: center;}
+.pokemon {
+  width: 70%;
+  display: inline-block;
+}
+.pokedex {
+  width: 20%;
+  min-height: 500px;
+  max-height: 100%;
+  display: inline-block;
+  border: 5px solid red;
+  vertical-align: top;
+  padding: 5px;
+}
+
+.pokedex > * {
+  display: none;
+}
+.hide {
+  visibility: hidden;
+}
