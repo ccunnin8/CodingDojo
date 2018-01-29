@@ -12,11 +12,12 @@
     <h1>Contact Cards</h1>
     <div class="wrapper">
       <form method="post" action="#">
+        <p class="error"></p>
           <label for="name">First Name: <input type="text" id="name" name="name"></label>
           <label for="last_name">Last Name: <input type="text" id="last_name" name="last_name"></label>
           <label for="description">Description: </label>
           <textarea id="description" name="description"></textarea>
-          <input type="submit" value="Add User">
+          <input id="submit" type="submit" value="Add User">
       </form>
       <div class="cards">
         <div class="card">
