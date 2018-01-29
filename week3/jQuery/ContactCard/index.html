@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Contact Card</title>
+    <meta charset="utf-8">
+    <meta name="description" content="This is a contact card page made with jquery">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1>Contact Cards</h1>
+    <div class="wrapper">
+      <form method="post" action="#">
+          <label for="name">First Name: <input type="text" id="name" name="name"></label>
+          <label for="last_name">Last Name: <input type="text" id="last_name" name="last_name"></label>
+          <label for="description">Description: </label>
+          <textarea id="description" name="description"></textarea>
+          <input type="submit" value="Add User">
+      </form>
+      <div class="cards">
+        <div class="card">
+          <div class="front">
+            <h1>Corey Cunningham</h1>
+            <button>Click for more info</button>
+          </div>
+          <div class="back hide">
+            <p>This is to test the overlay feature</p>
+            <button>Back</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
